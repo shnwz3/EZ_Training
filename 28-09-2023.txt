@@ -1,0 +1,44 @@
+//space complexity
+#include<stdio.h>
+struct a{
+  int x;
+  char y;
+double z;
+};
+int main()
+{
+struct a yes;
+printf("%d",sizeof(yes));
+return 0;
+}
+'''output
+16'''
+#find fibronic series,factorial,sum of the digits
+
+
+
+#include <stdio.h>
+
+// Recursive function to calculate the sum of integers from 1 to n
+int add(int n) {
+    if (n <= 0) {
+        return 0;
+    }
+    return n + add(n - 1);
+}
+
+int main() {
+    int num;
+    
+    printf("Enter a positive integer: ");
+    scanf("%d", &num);
+
+    if (num < 0) {
+        printf("Please enter a positive integer.\n");
+    } else {
+        int result = add(num);
+        printf("The sum of integers from 1 to %d is %d\n", num, result);
+    }
+
+    return 0;
+}

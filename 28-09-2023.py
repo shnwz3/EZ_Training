@@ -78,25 +78,25 @@ if not found:
 
 '''sum of the digits,factorial,fibronic series'''
 # # Initialize an empty list to store numbers
-# numbers = []
-#
-# # Function to add a number to the list
-# def add_number(number):
-#     numbers.append(number)
-#
-# # Function to calculate the sum of numbers in the list
-# def calculate_sum():
-#     return sum(numbers)
-#
-# # Add numbers dynamically
-# for i in range()
-# add_number(input())
-#
-# # Calculate the sum
-# result = calculate_sum()
-#
-# # Print the result
-# print("Sum of numbers:", result)
+'''numbers = []
+
+# Function to add a number to the list
+def add_number(number):
+    numbers.append(number)
+
+# Function to calculate the sum of numbers in the list
+def calculate_sum():
+    return sum(numbers)
+
+# Add numbers dynamically
+for i in range()
+add_number(input())
+
+# Calculate the sum
+result = calculate_sum()
+
+# Print the result
+print("Sum of numbers:", result)'''
 
 #Polynomial
 '''def generate_lists(n):

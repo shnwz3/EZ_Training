@@ -48,11 +48,11 @@ print("using for",temp)
 # char---1           int---4          double---8
 # space--4           space---4         space---8
 
-
-#  struc{
-#     double-------8+1+7=16
-#     char
-# }
- #int
- # double---------4+4+8+1+7=24
- #char
+'''
+ struc{
+    double-------8+1+7=16
+    char
+}
+ int
+ double---------4+4+8+1+7=24
+ char'''

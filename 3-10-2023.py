@@ -87,6 +87,7 @@ def generate_combinations(pairs, n, current_combination, combinations):
         generate_combinations(pairs, n - 2, pair[0] + current_combination + pair[1], combinations)
 
 
+        
 def all_combinations(pairs, n):
     combinations = []
     generate_combinations(pairs, n, '', combinations)
